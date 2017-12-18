@@ -1,0 +1,10 @@
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\obj\Debug\netcoreapp2.0\historianservice.csproj.CoreCompileInputs.cache
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\obj\Debug\netcoreapp2.0\historianservice.AssemblyInfoInputs.cache
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\obj\Debug\netcoreapp2.0\historianservice.AssemblyInfo.cs
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\bin\Debug\netcoreapp2.0\historianservice.deps.json
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\bin\Debug\netcoreapp2.0\historianservice.runtimeconfig.json
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\bin\Debug\netcoreapp2.0\historianservice.runtimeconfig.dev.json
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\bin\Debug\netcoreapp2.0\historianservice.dll
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\bin\Debug\netcoreapp2.0\historianservice.pdb
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\obj\Debug\netcoreapp2.0\historianservice.dll
+C:\Users\fernandos\Documents\Projetos\Mahle\Projeto\APIs\historianservice\obj\Debug\netcoreapp2.0\historianservice.pdb

@@ -8,6 +8,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using historianservice.Service.Interface;
+using historianservice.Service;
+using historianservice.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace historianservice
 {
@@ -23,6 +27,17 @@ namespace historianservice
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                }));
+            services.AddSingleton<IConfiguration>(Configuration);
+            services.AddTransient<IHistorianService,HistorianService>();
+            services.AddDbContext<ApplicationDbContext>(options =>
+               options.UseNpgsql(Configuration.GetConnectionString("HistorianDB")));
+
             services.AddMvc();
         }
 
