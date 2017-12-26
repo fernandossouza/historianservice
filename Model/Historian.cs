@@ -7,6 +7,6 @@ namespace historianservice.Model
         public int thingId{get;set;}
         public string tag{get;set;}
         public string value{get;set;}
-        public DateTime date{get;set;}
+        public long date{get;set;}
     }
 }

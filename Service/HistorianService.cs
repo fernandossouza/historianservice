@@ -17,7 +17,7 @@ namespace historianservice.Service
         {
             _context = context;
         }
-        public async Task<List<Historian>> getHistorian(int thingId,DateTime dateInitial,DateTime dateEnd)
+        public async Task<List<Historian>> getHistorian(int thingId,long dateInitial,long dateEnd)
         {
             var historian = await _context.Historians.OrderBy(x=>x.date)
             .Where(x=> x.thingId == thingId && 
@@ -27,7 +27,7 @@ namespace historianservice.Service
 
         }
 
-        public async Task<List<Historian>> getHistorianPerTag(int thingId,DateTime dateInitial,DateTime dateEnd,string tagName)
+        public async Task<List<Historian>> getHistorianPerTag(int thingId,long dateInitial,long dateEnd,string tagName)
         {
             var historian = await _context.Historians.OrderBy(x=>x.date)
             .Where(x=> x.thingId == thingId && x.tag == tagName &&

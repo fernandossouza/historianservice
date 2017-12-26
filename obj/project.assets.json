@@ -12657,11 +12657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\fernandos\\Documents\\Projetos\\Mahle\\Projeto\\APIs\\historianservice\\historianservice.csproj",
+      "projectUniqueName": "C:\\Users\\fernandos\\Documents\\Projetos\\Mahle\\Projeto\\APIs\\historianservice\\historianservice.csproj",
       "projectName": "historianservice",
-      "projectPath": "c:\\Users\\fernandos\\Documents\\Projetos\\Mahle\\Projeto\\APIs\\historianservice\\historianservice.csproj",
+      "projectPath": "C:\\Users\\fernandos\\Documents\\Projetos\\Mahle\\Projeto\\APIs\\historianservice\\historianservice.csproj",
       "packagesPath": "C:\\Users\\fernandos\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\fernandos\\Documents\\Projetos\\Mahle\\Projeto\\APIs\\historianservice\\obj\\",
+      "outputPath": "C:\\Users\\fernandos\\Documents\\Projetos\\Mahle\\Projeto\\APIs\\historianservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
